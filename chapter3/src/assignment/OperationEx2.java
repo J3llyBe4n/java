@@ -1,0 +1,15 @@
+package assignment;
+
+public class OperationEx2 {
+    public static void main (String[] args){
+        int num = 10;
+        System.out.println(num++);
+
+        System.out.println(num); //뒤에 연산자가 붙으면 해당줄 모두다 실행하고 담줄 내려가기 직전에 연산해줌
+
+        int num1 = 10;
+        int num2 = 5;
+        boolean flag = (num1 > num2);
+        System.out.println(flag);
+    }
+}
